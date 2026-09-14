@@ -268,6 +268,16 @@ def main() -> int:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(artifact, encoding="utf-8")
     except (OSError, ValueError, json.JSONDecodeError) as exc:
+        try:
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            args.output.write_text(
+                "<!doctype html><html lang=\"zh-CN\"><head><meta charset=\"utf-8\"></head>"
+                f"<body><h1>渲染未成功</h1><p>原因：{html.escape(str(exc))}</p>"
+                "<p>这是降级提示页；完整判断以对话文本为准。</p></body></html>",
+                encoding="utf-8",
+            )
+        except Exception:
+            pass
         raise SystemExit(f"render failed: {exc}") from exc
     return 0
 

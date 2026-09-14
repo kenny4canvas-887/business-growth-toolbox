@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from html import escape
 from pathlib import Path
 from typing import Any
@@ -244,14 +245,35 @@ def render(payload: dict[str, Any]) -> str:
 """
 
 
+def _fallback_html(message: str) -> str:
+    safe = escape(message)
+    return (
+        "<!doctype html><html lang=\"zh-CN\"><head><meta charset=\"utf-8\">"
+        "<title>BMI 商业阶段诊断（降级）</title></head><body>"
+        f"<h1>诊断报告未能生成</h1><p>原因：{safe}</p>"
+        "<p>这是降级提示页；完整判断以对话文本为准。</p></body></html>"
+    )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
     args = parser.parse_args()
-    payload = json.loads(args.input.read_text(encoding="utf-8"))
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(render(payload), encoding="utf-8")
+    try:
+        payload = json.loads(args.input.read_text(encoding="utf-8"))
+        if not isinstance(payload, dict):
+            raise ValueError("input must be a JSON object")
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(render(payload), encoding="utf-8")
+    except Exception as exc:
+        sys.stderr.write(f"render failed: {exc}\n")
+        try:
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            args.output.write_text(_fallback_html(str(exc)), encoding="utf-8")
+        except Exception:
+            pass
+        return 1
     return 0
 
 
