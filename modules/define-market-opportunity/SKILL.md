@@ -16,7 +16,7 @@ K0 必须追问：**客户为什么现在要改变现状**。缺少会改变“�
 
 K0 的顾问论点是：**趋势成立不等于机会成立**。真正的机会必须同时出现改变现状的触发器、现实替代和可进入路径；否则先验证触发器，不把行业热度当成客户需求。
 
-已有足够线索时，从[顾问判断视角](modules/define-market-opportunity/references/consultant-lenses.md)中最多选择一个最能改变进入决策的视角，形成“为什么现在值得进入”、“本轮明确排除”和“改判证据”。证据不足时只能写成可推翻假设，不把视角名称或视角库清单展示给客户。
+已有足够线索时，从[顾问判断视角](references/consultant-lenses.md)中最多选择一个最能改变进入决策的视角，形成“为什么现在值得进入”、“本轮明确排除”和“改判证据”。证据不足时只能写成可推翻假设，不把视角名称或视角库清单展示给客户。
 
 完整输出和行动 HTML 首屏固定写明：`核心判断`、`关键机制`、`为什么不是另一个常见答案`、`改判证据`。结论要鲜明，证据状态要诚实；不寻常来自机制洞察，不来自冒犯性标签。
 
@@ -50,11 +50,11 @@ K0 的顾问论点是：**趋势成立不等于机会成立**。真正的机会�
 
 ## 按需读取
 
-- 执行方法或 To B、To C、混合业务分流时，读取 [方法与分流](modules/define-market-opportunity/references/methods.md)。
-- 组织结果或回传证据时，读取 [交付与回传](modules/define-market-opportunity/references/deliverables.md)。
-- 判断核心画布与辅助画布时，读取 [视觉框架](modules/define-market-opportunity/references/visual-frameworks.md)。
-- 需要形成显性且可改判的进入判断时，读取 [顾问判断视角](modules/define-market-opportunity/references/consultant-lenses.md)；每轮最多选择一个。
-- 只在验收或迭代本模块时，读取 [评测案例](modules/define-market-opportunity/references/evaluation-cases.md)。
+- 执行方法或 To B、To C、混合业务分流时，读取 [方法与分流](references/methods.md)。
+- 组织结果或回传证据时，读取 [交付与回传](references/deliverables.md)。
+- 判断核心画布与辅助画布时，读取 [视觉框架](references/visual-frameworks.md)。
+- 需要形成显性且可改判的进入判断时，读取 [顾问判断视角](references/consultant-lenses.md)；每轮最多选择一个。
+- 只在验收或迭代本模块时，读取 [评测案例](references/evaluation-cases.md)。
 
 ## 阶段三工作流
 

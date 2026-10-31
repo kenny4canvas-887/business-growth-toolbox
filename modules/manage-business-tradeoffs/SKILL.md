@@ -47,4 +47,4 @@ S6 的经营取舍，不调用其他阶段模块，也不自行修改 `action_st
 
 ## 按需参考
 
-需要比较取舍与停止线时加载[经营取舍方法](modules/manage-business-tradeoffs/references/methods.md)。需要计算或审查利润质量、营运资金、ROI、ROE 或盈亏平衡时加载[财务口径](modules/manage-business-tradeoffs/references/finance-methods.md)。需要校准相邻阶段或证据缺口时加载[评测案例](modules/manage-business-tradeoffs/references/evaluation-cases.md)。
+需要比较取舍与停止线时加载[经营取舍方法](references/methods.md)。需要计算或审查利润质量、营运资金、ROI、ROE 或盈亏平衡时加载[财务口径](references/finance-methods.md)。需要校准相邻阶段或证据缺口时加载[评测案例](references/evaluation-cases.md)。

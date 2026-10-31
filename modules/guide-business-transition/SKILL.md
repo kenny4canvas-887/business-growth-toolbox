@@ -30,4 +30,4 @@ S7 的顾问论点是：**转型不是追趋势**。先分清可迁移的客户�
 
 完整交付时，使用 `modules/guide-business-transition/scripts/render_s7_business_transition.py --input INPUT.json --output OUTPUT.html` 生成当前阶段的 HTML 行动报告，再由诊断入口以该文件作为 `stage_attachment` 生成诊断 HTML；两页必须使用安全的本地相对链接互链。只生成这一份 S7 行动报告，不生成其他阶段报告。
 
-需要确定转型选择与验证停止线时读取[转型方法](modules/guide-business-transition/references/methods.md)。需要校准 S7 进入门槛及相邻阶段时读取[评测案例](modules/guide-business-transition/references/evaluation-cases.md)。
+需要确定转型选择与验证停止线时读取[转型方法](references/methods.md)。需要校准 S7 进入门槛及相邻阶段时读取[评测案例](references/evaluation-cases.md)。

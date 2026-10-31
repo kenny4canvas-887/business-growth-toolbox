@@ -35,12 +35,12 @@ K1 的顾问论点是：**客群不是人口标签**。可行动的细分，是�
 
 选择验证动作时读取方法，组织完整结果或回传时读取交付契约，生成画布或 HTML 时读取可视化框架；已读取且未变更的资料不重复加载：
 
-- [方法](modules/validate-customer-demand/references/methods.md)：根据当前最大不确定性选择一种验证方法。
-- [顾问锐见库](modules/validate-customer-demand/references/consultant-lenses.md)：已有足够行为线索、需要形成鲜明但可推翻的 K1 判断时读取；每次最多选择一个，不展示完整清单。
-- [交付契约](modules/validate-customer-demand/references/deliverables.md)：按七部分交付客户细分、Target、验证与回传。
-- [可视化框架](modules/validate-customer-demand/references/visual-frameworks.md)：填写默认价值设计画布（K1 客户细分定位），并按最大证据缺口至多选择一张辅助框架。
+- [方法](references/methods.md)：根据当前最大不确定性选择一种验证方法。
+- [顾问锐见库](references/consultant-lenses.md)：已有足够行为线索、需要形成鲜明但可推翻的 K1 判断时读取；每次最多选择一个，不展示完整清单。
+- [交付契约](references/deliverables.md)：按七部分交付客户细分、Target、验证与回传。
+- [可视化框架](references/visual-frameworks.md)：填写默认价值设计画布（K1 客户细分定位），并按最大证据缺口至多选择一张辅助框架。
 
-只在验证或迭代本模块时读取 [评测案例](modules/validate-customer-demand/references/evaluation-cases.md)。
+只在验证或迭代本模块时读取 [评测案例](references/evaluation-cases.md)。
 
 ## 输入契约
 

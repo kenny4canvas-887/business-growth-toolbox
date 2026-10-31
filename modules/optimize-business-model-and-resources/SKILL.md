@@ -18,7 +18,7 @@ K4 必须追问：**哪一个约束正在吞掉经营结果**。缺少会改变�
 
 K4 的顾问论点是：**收入增长可能掩盖经营约束**。必须在收入质量、成本到服务、交付容量与关键资源中找出正在吞掉结果的一个主约束，再决定优化什么和停止什么。
 
-只有某个视角会改变主约束或资源取舍时，才读取[顾问视角](modules/optimize-business-model-and-resources/references/consultant-lenses.md)；每轮最多选择一个。客户增长是否可重复属于 K3，系统复制与飞轮属于 S5，集团级利润、资本配置和完整财务报表诊断属于 S6；K4 不与它们竞争阶段权限。
+只有某个视角会改变主约束或资源取舍时，才读取[顾问视角](references/consultant-lenses.md)；每轮最多选择一个。客户增长是否可重复属于 K3，系统复制与飞轮属于 S5，集团级利润、资本配置和完整财务报表诊断属于 S6；K4 不与它们竞争阶段权限。
 
 完整输出保留通用顾问语义：`核心判断`、`关键机制`、`为什么不是另一个常见答案`、`改判证据`。行动 HTML 首屏将其收紧为 `consultant_insight`：`真正吞掉结果的约束`、`本轮明确不优化`、`改判证据`。三项分别对应 `contrarian`、`do_not_do`、`reversal_evidence`，每项必须以 `[已确认]`、`[假设]` 或 `[缺口]` 标记证据状态。结论要鲜明，证据状态要诚实；不寻常来自机制洞察，不来自冒犯性标签。
 
@@ -70,7 +70,7 @@ K4 的顾问论点是：**收入增长可能掩盖经营约束**。必须在收�
 
 ## 阶段2商业模式诊断
 
-只有 `entry_decision=进入 K4` 时才进入本阶段。沿用用户已有的商业模式画布，以“商业模式画布 + 收入成本对比 + 资源与能力承接”形成一条约束判断链；不要把三者分别做成互不相关的清单。具体按[方法参考](modules/optimize-business-model-and-resources/references/methods.md)执行。
+只有 `entry_decision=进入 K4` 时才进入本阶段。沿用用户已有的商业模式画布，以“商业模式画布 + 收入成本对比 + 资源与能力承接”形成一条约束判断链；不要把三者分别做成互不相关的清单。具体按[方法参考](references/methods.md)执行。
 
 1. 固定阶段1的 `diagnostic_scope`，所有收入、成本、交付和资源证据使用同一增长单元及可比较口径。
 2. 以“商业模式画布（K4资源与增长效率优化）”为一个核心方法，检查九个模块之间是否匹配；客户与价值结论继承 K1-K3 已确认结果，不在 K4 重做市场定位。
@@ -94,7 +94,7 @@ K4 的顾问论点是：**收入增长可能掩盖经营约束**。必须在收�
 
 ## 阶段3收入成本与单位经营口径
 
-只有阶段2已形成 `business_model_snapshot`、`bottleneck_chain` 和待检验的 `main_constraint` 时才进入本阶段。按[单位经营参考](modules/optimize-business-model-and-resources/references/unit-economics.md)锁定唯一经营单位、收入状态、成本层级和计算条件，用可比较数据检验主约束，不把本阶段当作财务审计。
+只有阶段2已形成 `business_model_snapshot`、`bottleneck_chain` 和待检验的 `main_constraint` 时才进入本阶段。按[单位经营参考](references/unit-economics.md)锁定唯一经营单位、收入状态、成本层级和计算条件，用可比较数据检验主约束，不把本阶段当作财务审计。
 
 1. 固定 `economic_scope`：一个增长单元、一个经营单位、一个时间范围和一套确认规则；公司总量只能作为背景。
 2. 建立 `revenue_bridge`，区分合同额或订单额、已确认收入、开票金额和实际回款，不互相替代。
@@ -117,7 +117,7 @@ K4 的顾问论点是：**收入增长可能掩盖经营约束**。必须在收�
 
 ## 阶段4资源与能力约束判断
 
-只有阶段2的 `main_constraint` 已形成、阶段3已输出 `economic_scope`、`data_readiness` 与 `comparison_result` 时才进入本阶段。按[资源约束参考](modules/optimize-business-model-and-resources/references/resource-constraints.md)，在同一经营单位内把交付边界、容量、关键人、流程与伙伴依赖串回主约束和经济结果；没有直接证据时只保留工作假设。
+只有阶段2的 `main_constraint` 已形成、阶段3已输出 `economic_scope`、`data_readiness` 与 `comparison_result` 时才进入本阶段。按[资源约束参考](references/resource-constraints.md)，在同一经营单位内把交付边界、容量、关键人、流程与伙伴依赖串回主约束和经济结果；没有直接证据时只保留工作假设。
 
 1. 固定 `economic_scope` 与交付边界，列出增长必须经过的关键活动、输入、输出和责任边界。
 2. 区分容量不足、关键人依赖、流程与能力缺口、伙伴依赖和资源错配；不把岗位数量、成本金额或主观紧迫感直接当作资源约束。
@@ -141,7 +141,7 @@ K4 的顾问论点是：**收入增长可能掩盖经营约束**。必须在收�
 
 ## 阶段5经营杠杆与方案取舍
 
-只有阶段2至4已经形成同一 `economic_scope` 下的 `main_constraint`、`comparison_result` 和 `resource_constraint` 时才进入本阶段。按[经营杠杆参考](modules/optimize-business-model-and-resources/references/operating-levers.md)，将利润压力先拆回可比较的经营单元，再提出可检验的经营杠杆与取舍；不把公司整体利润、管理意图或单次异常直接当作商业模式失效。
+只有阶段2至4已经形成同一 `economic_scope` 下的 `main_constraint`、`comparison_result` 和 `resource_constraint` 时才进入本阶段。按[经营杠杆参考](references/operating-levers.md)，将利润压力先拆回可比较的经营单元，再提出可检验的经营杠杆与取舍；不把公司整体利润、管理意图或单次异常直接当作商业模式失效。
 
 1. 当成熟主业与新业务或新品类共同影响利润时，先输出 `operating_scope_split`，分别记录其收入、成本、资源占用与证据状态；不能拆分时停止在数据补证，不把两者混作同一结论。
 2. 用 `profit_pressure_triage` 依次判断增长是否仍成立、压力是否可被同口径收入成本解释、资源约束是否已连接经济结果；每条结论标记事实、假设或缺口。
@@ -163,7 +163,7 @@ K4 的顾问论点是：**收入增长可能掩盖经营约束**。必须在收�
 
 ## 阶段6可视化交付
 
-只有阶段2至5字段已经形成、`operating_scope_split` 能区分成熟主业与新业务或新品类，且至少有一个符合证据边界的 `operating_levers` 时才进入本阶段。按[可视化输出规范](modules/optimize-business-model-and-resources/references/visual-frameworks.md)执行，图文使用同一组事实，不另起一套判断。
+只有阶段2至5字段已经形成、`operating_scope_split` 能区分成熟主业与新业务或新品类，且至少有一个符合证据边界的 `operating_levers` 时才进入本阶段。按[可视化输出规范](references/visual-frameworks.md)执行，图文使用同一组事实，不另起一套判断。
 
 1. 默认生成并显示一张“K4 经营模型与资源优化图”，不机械重画九宫格，也不默认拆成多张图。
 2. 图中固定包含商业模式与经营结果链、成熟主业、新业务或新品类、收入成本判断、资源约束、商业模式重构复核、最多三个经营杠杆、30 天优先验证和停止线。
@@ -182,7 +182,7 @@ K4 的顾问论点是：**收入增长可能掩盖经营约束**。必须在收�
 
 ## 阶段7完工收口
 
-客户任务按下列交付检查收口，不运行整套开发评测。只有迭代或发布验收本模块时才读取[评测案例](modules/optimize-business-model-and-resources/references/evaluation-cases.md)，覆盖 To C、To B、返回 K1、返回 K2、返回 K3、继续 K4、建议复核 S5、建议业务体检 复核 S7、混合经营单元和证据不足；不得把历史评测结果当成本轮客户证据。
+客户任务按下列交付检查收口，不运行整套开发评测。只有迭代或发布验收本模块时才读取[评测案例](references/evaluation-cases.md)，覆盖 To C、To B、返回 K1、返回 K2、返回 K3、继续 K4、建议复核 S5、建议业务体检 复核 S7、混合经营单元和证据不足；不得把历史评测结果当成本轮客户证据。
 
 1. 准入成立时，交付阶段2至6的同一条证据链；准入不成立时，不生成假装完成 K4 的经营优化图。
 2. 返回 K1、K2、K3，或建议复核 S5、S7 时，使用五栏阶段交接框架：当前判断、移交证据、缺失证据、下一步、停止线。

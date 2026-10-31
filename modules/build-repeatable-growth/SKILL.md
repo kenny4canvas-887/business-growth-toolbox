@@ -18,13 +18,25 @@ K3 只处理已经验证客户价值之后的增长问题：固定一个增长�
 - 重新设计尚未成立的价值主张、产品方案或最小交付；这属于 K2。
 - 完整商业模式、收入成本对比、资源调用与规模承接；这属于 K4。
 
+## 专项分析优先
+
+工具图默认交付：完成本轮专项回答时，按[视觉规则](references/visual-frameworks.md)同步生成一张已填写的商业模式九宫格：高亮本轮关键要素及其联系，未研究格保留灰色标记。工具图是帮助理解分析的独立产物，不以索要完整报告为前提；用户明确只要文字时除外。只画本轮已有结论，缺口照实标记，不为出图延长提问或扩大分析。
+
+用户只研究商业模式九宫格中的关键要素时，将九宫格作为关系框架，按方法参考深挖与当前决定有关的要素；不强制四域图、增长实验或三张行动卡。此规则优先于下文默认完整交付与“每次进入K3”的展示要求；正式完整阶段测试仍执行原契约。用交付参考中的关键要素设计底稿保留细节，不为完整感拼凑九格。
+
+先复用已验证客户价值，说明具体客户如何经由具体渠道获得、交付并持续实现价值。渠道不能只写线上／线下；继续追到平台或场所、触点、转化动作、交付衔接及依据。To B 复用K2按角色确认的成果与顾虑，检查它们怎样影响接触、审批、采用或续约，不把动机假设升级成事实。
+
+阶段闸门与权限保持不变：专项不证明K3准入或增长可重复。未通过闸门时只给证据边界与补证，不虚构渠道结论；九宫格中资源、活动、伙伴、收入与成本可记录影响本轮的已知约束和待验证联系，完整盈利核算与规模资源配置仍建议复核K4。用户只要关键要素，不因“九宫格”一词整包转去K4。
+
+专项完成后停止；用户要保存时交付独立Markdown底稿，主动要完整汇报时才由总入口按需生成。底稿不是完整阶段验收，也不是阶段升级。
+
 ## 显性专业价值
 
 K3 必须追问：**为什么先修这个断点，而不是继续加流量**。缺少会改变主断点判断的证据时，先说明为什么不能直接判断，并只问一个决定性问题；不补造转化率、样本数或达标门槛。
 
 K3 的顾问论点是：**增长问题通常不是流量不足**。先找 Get、Keep、Grow 中第一个不能重复的断点；在它修复前继续获客，只会放大漏损或低质量收入。
 
-完整输出和行动 HTML 首屏固定写明：`核心判断`、`关键机制`、`为什么不是另一个常见答案`、`改判证据`；其中 K3 用户可见标题固定为：`真正增长瓶颈`、`本轮明确不做`、`改判证据`。调用[顾问锐见](modules/build-repeatable-growth/references/consultant-lenses.md)只选一个最能解释第一断点的角度。结论要鲜明，证据状态要诚实；不寻常来自机制洞察，不来自冒犯性标签。
+完整输出和行动 HTML 首屏固定写明：`核心判断`、`关键机制`、`为什么不是另一个常见答案`、`改判证据`；其中 K3 用户可见标题固定为：`真正增长瓶颈`、`本轮明确不做`、`改判证据`。调用[顾问锐见](references/consultant-lenses.md)只选一个最能解释第一断点的角度。结论要鲜明，证据状态要诚实；不寻常来自机制洞察，不来自冒犯性标签。
 
 ## 客户可感知的阶段决策闭环
 
@@ -69,10 +81,10 @@ K3 的顾问论点是：**增长问题通常不是流量不足**。先找 Get、
 ## 六步工作流
 
 1. **增长准入检查**：执行入口闸门，判断继续、退回或停止。
-2. **增长单元与基线**：固定一个可比较的业务对象和当前证据口径；读取[方法参考](modules/build-repeatable-growth/references/methods.md)中的增长单元与同口径规则。
+2. **增长单元与基线**：固定一个可比较的业务对象和当前证据口径；读取[方法参考](references/methods.md)中的增长单元与同口径规则。
 3. **生命周期与四域扫描**：先形成轻量 Get、Keep、Grow 生命周期判断，再按方法参考检查客户细分增长、渠道通路、客户关系和收入扩大。
-4. **主增长路径取舍**：按[方法参考](modules/build-repeatable-growth/references/methods.md)只保留一个本轮主路径，并记录次选、暂缓方向和反转证据。
-5. **方法与增长实验**：按最大不确定性选择一个核心方法，并按[交付参考](modules/build-repeatable-growth/references/deliverables.md)形成最小实验与三张行动卡。
+4. **主增长路径取舍**：按[方法参考](references/methods.md)只保留一个本轮主路径，并记录次选、暂缓方向和反转证据。
+5. **方法与增长实验**：按最大不确定性选择一个核心方法，并按[交付参考](references/deliverables.md)形成最小实验与三张行动卡。
 6. **复盘与阶段流转**：按交付参考返回新增证据，并建议继续 K3、返回 K1/K2、停止或复核 K4。
 
 ## 阶段三输出结构
@@ -113,9 +125,9 @@ K3 的顾问论点是：**增长问题通常不是流量不足**。先找 Get、
 
 ## 默认视觉交付
 
-按[视觉框架](modules/build-repeatable-growth/references/visual-frameworks.md)准备同一组 K3 结论。完整交付默认使用 `modules/build-repeatable-growth/scripts/render_k3_growth_diagnosis.py --input JSON --output REPORT.html` 生成 K3 HTML 行动报告，内嵌含轻量“生命周期概览”的四域增长诊断图；只需单独画布时仍可输出 `.svg`。在回复中给出产物的绝对路径。图形与文字必须使用同一组事实，不得在画布中增加新数字、新阶段判断或额外增长建议。
+按[视觉框架](references/visual-frameworks.md)准备同一组 K3 结论。完整交付默认使用 `modules/build-repeatable-growth/scripts/render_k3_growth_diagnosis.py --input JSON --output REPORT.html` 生成 K3 HTML 行动报告，内嵌含轻量“生命周期概览”的四域增长诊断图；只需单独画布时仍可输出 `.svg`。在回复中给出产物的绝对路径。图形与文字必须使用同一组事实，不得在画布中增加新数字、新阶段判断或额外增长建议。
 
-只在客户关系或客户经营成为主瓶颈时调用现有客户经营画布；它是四域增长诊断图的补充，不替代默认视觉。生成失败时可用 Markdown 说明进展，但正式报告验收仍未完成。仅预览不可用时，返回已验证存在的 HTML 链接并说明未做视觉验收。若入口判断要求返回 K1/K2、停止或建议复核 K4，不生成假装完成 K3 的四域图，改用[视觉框架](modules/build-repeatable-growth/references/visual-frameworks.md)中的“阶段交接框架”。
+只在客户关系或客户经营成为主瓶颈时调用现有客户经营画布；它是四域增长诊断图的补充，不替代默认视觉。生成失败时可用 Markdown 说明进展，但正式报告验收仍未完成。仅预览不可用时，返回已验证存在的 HTML 链接并说明未做视觉验收。若入口判断要求返回 K1/K2、停止或建议复核 K4，不生成假装完成 K3 的四域图，改用[视觉框架](references/visual-frameworks.md)中的“阶段交接框架”。
 
 ## 对话规则
 
@@ -144,8 +156,8 @@ K3 的顾问论点是：**增长问题通常不是流量不足**。先找 Get、
 
 ## 按需资源
 
-- [方法参考](modules/build-repeatable-growth/references/methods.md)
-- [顾问锐见](modules/build-repeatable-growth/references/consultant-lenses.md)
-- [交付参考](modules/build-repeatable-growth/references/deliverables.md)
-- [视觉框架](modules/build-repeatable-growth/references/visual-frameworks.md)
-- [评测案例](modules/build-repeatable-growth/references/evaluation-cases.md)
+- [方法参考](references/methods.md)
+- [顾问锐见](references/consultant-lenses.md)
+- [交付参考](references/deliverables.md)
+- [视觉框架](references/visual-frameworks.md)
+- [评测案例](references/evaluation-cases.md)
